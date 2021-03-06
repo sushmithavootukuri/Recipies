@@ -10,8 +10,5 @@ Requires [Node.js](https://nodejs.org/).
 $ npm install
 ```
 ```sh
-$ npm run build
-```
-```sh
 $ npm run start
 ```
