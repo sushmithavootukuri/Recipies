@@ -1,6 +1,6 @@
 # A Simple Recipe App using React
 
-## [View here](https://bzr5d.csb.app/)
+## [View here](https://app-recipe-box.netlify.app/)
 
 ### Installation
 
