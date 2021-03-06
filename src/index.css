@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.site-name {
+  font-family: cursive;
+}
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  font-size: large;
+  font-weight: 600;
+}
+
+.addItem {
+  display: block;
+}
+
+.col-50 {
+  display: inline-block;
+  width: 35%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+input {
+  margin: 12px 0px;
+}
+.plus {
+  color: green;
+  font-size: 35px;
+  font-weight: 900;
+  position: relative;
+  top: 3px;
+}
+
+.error {
+  text-align: center;
+  color: #bf1650;
+}
+
+.error::before {
+  display: inline-block;
+  content: "⚠  ";
+}
+@media screen and (max-width: 750px) {
+  .col-50 {
+    width: 100%;
+  }
+}
+
+a,
+a:hover {
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: white;
+  font-size: 1.1rem;
+}
